@@ -14,7 +14,7 @@ A simple theme template for keycloak, customize to your heart's content and enjo
 How to use this repository.
 The repository is designed to speed up the development of custom keycloak themes. Cloning it quickly sets up the keycloak custom theme directory and file structure. It contains the default theme configuration files within each area so that devs can easily reference the default confs without having to unpack the theme jar files. 
 
-This repository is divided not by keycloak theme but by keycloak "area" the areas of course being admin, account, login, and email. This is because this is the structure that keycloak expects custom themes to be in. The overall structure is similar to: 
+<p>This repository is divided not by keycloak theme but by keycloak "area" the areas of course being admin, account, login, and email. This is because this is the structure that keycloak expects custom themes to be in. The overall structure is similar to: 
 ------------------------
 mytheme/
 ├── account/
@@ -46,6 +46,6 @@ mytheme/
         └── css/
             └── styles.css
 ------------------------------------------
-Also within each area is a directory called defaultconf which contains each applicable theme's default conf for the area.
+Also within each area is a directory called defaultconf which contains each applicable theme's default conf for the area. </p>
 
 
