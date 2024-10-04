@@ -16,9 +16,9 @@ The repository is designed to speed up the development of custom keycloak themes
 
 <p>This repository is divided not by keycloak theme but by keycloak "area" the areas of course being admin, account, login, and email. This is because this is the structure that keycloak expects custom themes to be in. The overall structure is similar to: 
 </p> 
-<br>
-</br>
+
 ------------------------
+```
 mytheme/
 ├── account/
 │   ├── theme.properties
@@ -48,6 +48,7 @@ mytheme/
     └── resources/
         └── css/
             └── styles.css
+```
 ------------------------------------------
 Also within each area is a directory called defaultconf which contains each applicable theme's default conf for the area. </p>
 
