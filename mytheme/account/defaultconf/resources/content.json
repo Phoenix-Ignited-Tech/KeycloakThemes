@@ -1,0 +1,31 @@
+0	
+label	"personalInfo"
+path	"/"
+1	
+label	"accountSecurity"
+children	
+0	
+label	"signingIn"
+path	"account-security/signing-in"
+1	
+label	"deviceActivity"
+path	"account-security/device-activity"
+2	
+label	"linkedAccounts"
+path	"account-security/linked-accounts"
+isVisible	"isLinkedAccountsEnabled"
+2	
+label	"applications"
+path	"applications"
+3	
+label	"groups"
+path	"groups"
+isVisible	"isViewGroupsEnabled"
+4	
+label	"resources"
+path	"resources"
+isVisible	"isMyResourcesEnabled"
+5	
+label	"oid4vci"
+path	"oid4vci"
+isVisible	"isOid4VciEnabled"
