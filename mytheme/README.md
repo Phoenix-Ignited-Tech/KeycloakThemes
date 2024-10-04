@@ -15,6 +15,9 @@ How to use this repository.
 The repository is designed to speed up the development of custom keycloak themes. Cloning it quickly sets up the keycloak custom theme directory and file structure. It contains the default theme configuration files within each area so that devs can easily reference the default confs without having to unpack the theme jar files. 
 
 <p>This repository is divided not by keycloak theme but by keycloak "area" the areas of course being admin, account, login, and email. This is because this is the structure that keycloak expects custom themes to be in. The overall structure is similar to: 
+</p> 
+<br>
+</br>
 ------------------------
 mytheme/
 ├── account/
